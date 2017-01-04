@@ -1,0 +1,26 @@
+{
+  "name": "mirkhamidov/yii2-jsonvalidator",
+  "description": "Simple JSON validator rule",
+  "keywords": ["yii2", "yii2-jsonvalidator", "mirkhamidov", "json", "validator"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/mirkhamidov/yii2-jsonvalidator/issues?state=open",
+    "source": "https://github.com/mirkhamidov/yii2-jsonvalidator"
+  },
+  "authors": [
+    {
+      "name": "Jasur Mirkhamidov",
+      "email": "mirkhamidov.jasur@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "^2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "mirkhamidov\\validators\\": ""
+    }
+  }
+}
